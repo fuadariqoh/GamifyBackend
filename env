@@ -1,0 +1,8 @@
+
+
+MODE=dev
+SERVICE_NAME=
+MONGO_URL_PRODUCTION=mongodb+srv://fuadariqoh:afong456@cluster0.kzzr7.mongodb.net/gamify?retryWrites=true&w=majority
+MONGO_URL=mongodb://127.0.0.1:27017/gamify
+
+SECRET=SECRET
