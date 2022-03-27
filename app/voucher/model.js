@@ -28,12 +28,10 @@ let voucherSchema = mongoose.Schema(
       },
     ],
 
-    payments: [
-      {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "Payment",
-      },
-    ],
+    payments: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Payment",
+    },
 
     user: {
       type: mongoose.Schema.Types.ObjectId,
