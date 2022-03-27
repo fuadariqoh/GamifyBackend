@@ -30,6 +30,8 @@ module.exports = {
         .populate("nominals")
         .populate("user", "_id name phoneNumber");
 
+      console.log(voucher);
+
       if (!voucher) {
         return res
           .status(404)
