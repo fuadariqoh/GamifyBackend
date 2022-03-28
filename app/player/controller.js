@@ -53,7 +53,7 @@ module.exports = {
   },
   payment: async (req, res) => {
     try {
-      const payment = await Payment.find();
+      const payment = await Payment.find().populate("banks");
 
       res.status(200).json({ data: payment });
     } catch (err) {
